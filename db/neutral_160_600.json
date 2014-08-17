@@ -1,0 +1,190 @@
+{
+    "creative":{
+        "id": "neutral_160_600",
+        "width": "160",
+        "height": "600",
+        "clickTag": "http://adx.vn",
+        "brand": {
+            "type": "text",
+            "id": "textBrand",
+            "value": "# MICHAEL KORS",
+            "font": {
+                "name": "Arial",
+                "size": "11",
+                "weight": "400"
+            },
+            "color": "#FFFFFF",
+            "background": "#1c1300"
+        },
+        "products": {
+            "product1": {
+                "textDesc1": {
+                    "type": "text",
+                    "id": "textDesc1",
+                    "value":"# Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "400"
+                    },
+                    "color": "#000000"
+                },
+                "textPrice1": {
+                    "type": "text",
+                    "id": "textPrice1",
+                    "value":"# $328",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "textAction1": {
+                    "type": "text",
+                    "id": "textAction1",
+                    "value": "# SHOP NOW",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "image1": {
+                    "type": "image",
+                    "id": "image1",
+                    "title": "Image",
+                    "url": "/adx-adbuilder/public/img/product-1.jpg"
+                },
+                "status1": "true"
+            },
+            "product2": {
+                "textDesc2": {
+                    "type": "text",
+                    "id": "textDesc2",
+                    "value":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "400"
+                    },
+                    "color": "#000000"
+                },
+                "textPrice2": {
+                    "type": "text",
+                    "id": "textPrice2",
+                    "value": "$328",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "textAction2": {
+                    "type": "text",
+                    "id": "textAction2",
+                    "value": "SHOP NOW",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "image2": {
+                    "type": "image",
+                    "id": "image2",
+                    "title": "Image",
+                    "url": "/adx-adbuilder/public/img/product-2.jpg"
+                },
+                "status2": "true"
+            },
+            "product3": {
+                "textDesc3": {
+                    "type": "text",
+                    "id": "textDesc3",
+                    "value":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "400"
+                    },
+                    "color": "#000000"
+                },
+                "textPrice3": {
+                    "type": "text",
+                    "id": "textPrice3",
+                    "value": "$328",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "textAction3": {
+                    "type": "text",
+                    "id": "textAction3",
+                    "value": "SHOP NOW",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "image3": {
+                    "type": "image",
+                    "id": "image3",
+                    "title": "Image",
+                    "url": "/adx-adbuilder/public/img/product-3.jpg"
+                },
+                "status3": "true"
+            },
+            "product4": {
+                "textDesc4": {
+                    "type": "text",
+                    "id": "textDesc4",
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "400"
+                    },
+                    "color": "#000000"
+                },
+                "textPrice4": {
+                    "type": "text",
+                    "id": "textPrice4",
+                    "value": "$428",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "textAction4": {
+                    "type": "text",
+                    "id": "textAction4",
+                    "value": "SHOP NOW",
+                    "font": {
+                        "name": "Arial",
+                        "size": "11",
+                        "weight": "700"
+                    },
+                    "color": "#000000"
+                },
+                "image4": {
+                    "type": "image",
+                    "id": "image4",
+                    "title": "Image",
+                    "url": "/adx-adbuilder/public/img/product-4.jpg"
+                },
+                "status4": "true"
+            }
+        }
+    }
+}
