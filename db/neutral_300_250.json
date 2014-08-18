@@ -55,7 +55,7 @@
                     "type": "image",
                     "id": "image1",
                     "title": "Image",
-                    "url": "/adx-adbuilder/public/img/product-1.jpg"
+                    "url": "/adbuilder/public/img/product-1.jpg"
                 },
                 "status1": "true"
             },
@@ -97,7 +97,7 @@
                     "type": "image",
                     "id": "image2",
                     "title": "Image",
-                    "url": "/adx-adbuilder/public/img/product-2.jpg"
+                    "url": "/adbuilder/public/img/product-2.jpg"
                 },
                 "status2": "true"
             },
@@ -139,7 +139,7 @@
                     "type": "image",
                     "id": "image3",
                     "title": "Image",
-                    "url": "/adx-adbuilder/public/img/product-3.jpg"
+                    "url": "/adbuilder/public/img/product-3.jpg"
                 },
                 "status3": "true"
             },
@@ -181,7 +181,7 @@
                     "type": "image",
                     "id": "image4",
                     "title": "Image",
-                    "url": "/adx-adbuilder/public/img/product-4.jpg"
+                    "url": "/adbuilder/public/img/product-4.jpg"
                 },
                 "status4": "true"
             }

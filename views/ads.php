@@ -7,7 +7,7 @@
                 <li class="product-item product-item-1 first">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-1.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-1.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -21,7 +21,7 @@
                 <li class="product-item product-item-2">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-2.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-2.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -35,7 +35,7 @@
                 <li class="product-item product-item-3">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-3.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-3.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -60,7 +60,7 @@
                 <li class="product-item product-item-1 first">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-1.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-1.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -74,7 +74,7 @@
                 <li class="product-item product-item-2">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-2.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-2.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -99,7 +99,7 @@
                 <li class="product-item product-item-1 first">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-1.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-1.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -113,7 +113,7 @@
                 <li class="product-item product-item-2">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-2.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-2.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -138,7 +138,7 @@
                 <li class="product-item product-item-1 first">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-1.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-1.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -152,7 +152,7 @@
                 <li class="product-item product-item-2">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-2.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-2.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -177,7 +177,7 @@
                 <li class="product-item product-item-1 first">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-1.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-1.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -191,7 +191,7 @@
                 <li class="product-item product-item-2">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-2.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-2.jpg" />
                         </div>
                     </div>
                     <div class="info">
@@ -216,7 +216,7 @@
                 <li class="product-item product-item-1 first">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-1.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-1.jpg" />
                         </div>
                         <div class="center-block">
                             <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -229,7 +229,7 @@
                 <li class="product-item product-item-2">
                     <div class="image">
                         <div class="center-block">
-                            <img class="img-responsive" src="/adx-adbuilder/public/img/product-2.jpg" />
+                            <img class="img-responsive" src="/adbuilder/public/img/product-2.jpg" />
                         </div>
                         <div class="center-block">
                             <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>

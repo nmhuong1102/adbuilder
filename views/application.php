@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ADX - Ad Builder</title>
-    <link rel="stylesheet" type="text/css" href="/adx-adbuilder/public/components/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/adx-adbuilder/public/components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" media="screen" type="text/css" href="/adx-adbuilder/public/components/colorpicker/css/colorpicker.css" />
-    <link rel="stylesheet" type="text/css" href="/adx-adbuilder/public/css/styles.css">
+    <title>Ad Builder</title>
+    <link rel="stylesheet" type="text/css" href="/adbuilder/public/components/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/adbuilder/public/components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="/adbuilder/public/components/colorpicker/css/colorpicker.css" />
+    <link rel="stylesheet" type="text/css" href="/adbuilder/public/css/styles.css">
 </head>
 <body>
 <?php include_once('header.php'); ?>
@@ -67,10 +67,10 @@
     </div>
 </div>
 <?php include_once('footer.php'); ?>
-<script type="text/javascript" src="/adx-adbuilder/public/components/jquery/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/adx-adbuilder/public/components/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/adx-adbuilder/public/components/colorpicker/js/colorpicker.js"></script>
-<script type="text/javascript" src="/adx-adbuilder/public/js/script.js"></script>
+<script type="text/javascript" src="/adbuilder/public/components/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/adbuilder/public/components/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/adbuilder/public/components/colorpicker/js/colorpicker.js"></script>
+<script type="text/javascript" src="/adbuilder/public/js/script.js"></script>
 <script type="text/javascript">
 
 </script>

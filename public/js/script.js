@@ -28,19 +28,19 @@ $(document).ready(function() {
         console.log("adBuilderArr" + adBuilderArr);
     };
 
-    var adRenderFromJSON = function() {
+    var renderJsonToAdDisplay = function() {
         var template = $("#template").val(),
             format = $("#format").val(),
             fileName = "db/" + template + "_" + format + ".json";
 
         $.getJSON(fileName, function(json) {
             //console.log(json);
-            formInfoFilled(json);
+            renderJsonToAdInfo(json);
             adInfoFilled(json);
         });
     };
 
-    var formInfoFilled = function(json) {
+    var renderJsonToAdInfo = function(json) {
         var brand = json.creative.brand,
             products = json.creative.products;
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
     };
 
     (function init() {
-       adRenderFromJSON();
+        renderJsonToAdDisplay();
         adsRenderFromJSON();
        $('.color-picker').ColorPicker({
             color: '#0000ff',
