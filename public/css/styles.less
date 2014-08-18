@@ -1,6 +1,14 @@
 @brandBackground: #1c1300;
 @brandColor: #FFFFFF;
 
+.transition (@property, @duration) {
+	-webkit-transition: @property @duration;
+	-moz-transition: @property @duration;
+	-ms-transition: @property @duration;
+	-o-transition: @property @duration;
+	transition: @property @duration;
+}
+
 *, .btn, .form-control  {
 	font: 11px Arial;
 }
@@ -16,6 +24,7 @@
 }
 a, a:hover {
 	color: #000;
+	text-decoration: none;
 }
 ul {
 	list-style: none;
@@ -24,6 +33,7 @@ ul {
 }
 .img-responsive {
 	max-height: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 .center-block {
@@ -32,8 +42,44 @@ ul {
 	display: table-cell;
 	vertical-align: middle;
 }
+.bottom-block {
+	width: inherit;
+	height: inherit;
+	display: table-cell;
+	vertical-align: bottom;
+}
 .center-text {
 	text-align: center;
+}
+.wrapper-close {
+	position: relative;
+}
+.btn-close {
+	font-size: 12px;
+	display: block;
+	float: right;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	color: #fff;
+	background: @brandBackground;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.shadow {
+	width: inherit;
+	height: inherit;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	.transition(opacity, .3s);
 }
 
 .ad-builder-container {
@@ -155,7 +201,7 @@ ul {
 		font-weight: bold;
 	}
 	
-	a.ad-wrapper {
+	.ad-wrapper {
 		display: block;
 		box-sizing:border-box;
 		border-left-width: 5px;
@@ -236,7 +282,60 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 110px;
+							height: 178px;
+							border-bottom: 2px solid @brandBackground;
+							&.last {
+								border-bottom: 0;
+							}
+							.image {
+								width: 110px;
+								height: 175px;
+							}
+							.info {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 110px;
+								height: 535px;
+								background: rgba(255,255,255,0.6);
+								padding: 0 5px;
+								display: none;
+								&.show {
+									position: absolute;
+									z-index: 10;
+									top: 0;
+									left: 0;
+									background: #fff;
+									display: block;
+									padding: 0;
+					 				.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: 110px;
+											height: 346px;
+											border-bottom: 2px solid @brandBackground;
+											img {
+												padding-bottom: 5px;
+											}
+										}
+										.info-desc {
+											width: 110px;
+											height: 178px;
+											padding: 5px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
@@ -306,7 +405,60 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 150px;
+							height: 175px;
+							border-bottom: 2px solid @brandBackground;
+							&.last {
+								border-bottom: 0;
+							}
+							.image {
+								width: 150px;
+								height: 172px;
+							}
+							.info {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 150px;
+								height: 525px;
+								background: rgba(255,255,255,0.6);
+								padding: 0 5px;
+								display: none;
+								&.show {
+									position: absolute;
+									z-index: 10;
+									top: 0;
+									left: 0;
+									background: #fff;
+									display: block;
+									padding: 0;
+					 				.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: 150px;
+											height: 346px;
+											border-bottom: 2px solid @brandBackground;
+											img {
+												padding-bottom: 5px;
+											}
+										}
+										.info-desc {
+											width: 150px;
+											height: 175px;
+											padding: 5px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
@@ -368,7 +520,58 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 145px;
+							height: 98px;
+							border: 1px solid @brandBackground;
+							.image {
+								width: 143px;
+								height: 96px;
+							}
+							.info {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: inherit;
+								height: inherit;
+								background: rgba(255,255,255,0.6);
+								padding: 0 5px;
+								display: none;
+								&.show {
+									position: absolute;
+									z-index: 10;
+									top: 0;
+									left: 0;
+									background: #fff;
+									display: block;
+									width: 290px;
+									height: 195px;
+									padding: 0;
+									.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: 144px;
+											height: inherit;
+											float: left;
+										}
+										.info-desc {
+											width: 144px;
+											height: inherit;
+											padding: 5px;
+											float: left;
+											border-left: 2px solid @brandBackground;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
@@ -377,7 +580,68 @@ ul {
 				
 			}
 			&.ad-multiple {
-				
+				.content {
+					position: relative;
+					width: 290px;
+					height: 195px;
+					ul.products-list {
+						width: 145px;
+						height: 98px;
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						li.product-item {
+							width: 48px;
+							height: 98px;
+							border: 1px solid @brandBackground;
+							position: relative;
+							.image {
+								width: 45px;
+								height: 94px;
+							}
+							&.last {
+								border-right: 0;
+							}
+							&.show {
+								.shadow {
+									opacity: 0;
+									.transition(opacity, 1s);
+								}
+							}
+						}
+					}
+					ul.products-list-info {
+						li.product-item {
+							.info-image {
+								width: 145px;
+								height: 195px;
+								display: block;
+								float: left;
+								border: 1px solid @brandBackground;
+								display: none;
+							}
+							.info-desc {
+								display: block;
+								width: 145px;
+								height: 97px;
+								float: left;
+								border: 1px solid @brandBackground;
+								border-right: 0;	
+								display: none;
+								padding: 0 5px;
+							}
+
+							&.show {
+								.info-image {
+									display: block;
+								}
+								.info-desc {
+									display: block;
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 		&.ad-728-90 {
@@ -445,7 +709,58 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 132px;
+							height: 80px;
+							border: 1px solid @brandBackground;
+							.image {
+								width: 130px;
+								height: 78px;
+							}
+							.info {
+								position: absolute;
+								z-index: 10;
+								top: 0;
+								right: 0;
+								background: #fff;
+								padding: 0 5px;
+								width: 528px;
+								height: 80px;
+								padding: 0;
+								display: none;
+								&.show {
+									display: block;
+									.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: 264px;
+											height: inherit;
+											float: left;
+											border: 1px solid @brandBackground;
+											img {
+												max-height: 98%;
+												float: right;
+												padding-right: 30px;
+											}
+										}
+										.info-desc {
+											width: 264px;
+											height: inherit;
+											padding: 0px 20px;
+											float: left;
+											border: 1px solid @brandBackground;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
@@ -515,7 +830,57 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 145px;
+							height: 265px;
+							border: 1px solid @brandBackground;
+							.image {
+								width: 143px;
+								height: 263px;
+							}
+							.info {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 290px;
+								height: 530px;
+								background: rgba(255,255,255,0.6);
+								padding: 0 5px;
+								display: none;
+								&.show {
+									position: absolute;
+									z-index: 10;
+									top: 0;
+									left: 0;
+									background: #fff;
+									display: block;
+									padding: 0;
+					 				.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: inherit;
+											height: 405px;
+											border-bottom: 2px solid @brandBackground;
+											img {
+												padding-bottom: 5px;
+											}
+										}
+										.info-desc {
+											width: inherit;
+											height: 125px;
+											padding: 5px 30px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
@@ -577,7 +942,59 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 163px;
+							height: 113px;
+							border: 1px solid @brandBackground;
+							.image {
+								width: 143px;
+								height: 96px;
+							}
+							.info {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: inherit;
+								height: inherit;
+								background: rgba(255,255,255,0.6);
+								padding: 0 5px;
+								display: none;
+								&.show {
+									position: absolute;
+									z-index: 10;
+									top: 0;
+									left: 0;
+									background: #fff;
+									display: block;
+									width: 325px;
+									height: 225px;
+									padding: 0;
+									.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: 162px;
+											height: inherit;
+											float: left;
+											border: 1px solid @brandBackground;
+										}
+										.info-desc {
+											width: 163px;
+											height: inherit;
+											padding: 5px;
+											float: left;
+											border: 1px solid @brandBackground;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
