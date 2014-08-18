@@ -24,6 +24,7 @@ ul {
 }
 .img-responsive {
 	max-height: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 .center-block {
@@ -34,6 +35,18 @@ ul {
 }
 .center-text {
 	text-align: center;
+}
+.btn-close {
+	font-size: 12px;
+	display: block;
+	float: right;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	color: #fff;
+	background: @brandBackground;
+	position: relative;
 }
 
 .ad-builder-container {
@@ -155,7 +168,7 @@ ul {
 		font-weight: bold;
 	}
 	
-	a.ad-wrapper {
+	.ad-wrapper {
 		display: block;
 		box-sizing:border-box;
 		border-left-width: 5px;
@@ -368,7 +381,62 @@ ul {
 				
 			}
 			&.ad-mosaic {
-				
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 145px;
+							height: 98px;
+							border-left: 2px solid @brandBackground;
+							border-bottom: 2px solid @brandBackground;
+							&:nth-child(odd) {
+								border-left: 0;
+							}
+							.image {
+								width: 143px;
+								height: 96px;
+							}
+							.info {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: inherit;
+								height: inherit;
+								background: rgba(255,255,255,0.6);
+								padding: 0 5px;
+								display: none;
+								&.show {
+									position: absolute;
+									z-index: 10;
+									top: 0;
+									left: 0;
+									background: #fff;
+									display: block;
+									width: 290px;
+									height: 195px;
+									padding: 0;
+									.wrapper {
+										display: block;
+										width: inherit;
+										height: inherit;
+										.info-image {
+											width: 144px;
+											height: inherit;
+											float: left;
+										}
+										.info-desc {
+											width: 144px;
+											height: inherit;
+											padding: 5px;
+											float: left;
+											border-left: 2px solid @brandBackground;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&.ad-showcase {
 				
