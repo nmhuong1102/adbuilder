@@ -79,7 +79,7 @@ ul {
 	top: 0;
 	left: 0;
 	opacity: 1;
-	.transition(opacity, .3s);
+	.transition(opacity, 3s);
 }
 
 .ad-builder-container {
@@ -224,14 +224,14 @@ ul {
 				float: left;
 			}
 		}
-		&.ad-120-600 {
+		&.ad_120_600 {
 			width: 120px;
 			height: 600px;
 			.brand {
 				height: 55px;
 				line-height: 55px;
 			}
-			&.ad-neutral {
+			&.ad_neutral {
 				.content {
 					ul.products-list {
 						li.product-item {
@@ -275,13 +275,13 @@ ul {
 					}
 				}
 			}
-			&.ad-slideshow {
+			&.ad_slideshow {
 				
 			}
-			&.ad-carrousel {
+			&.ad_carrousel {
 				
 			}
-			&.ad-mosaic {
+			&.ad_mosaic {
 				.content {
 					position: relative;
 					ul.products-list {
@@ -337,24 +337,24 @@ ul {
 					}
 				}
 			}
-			&.ad-showcase {
+			&.ad_showcase {
 				
 			}
-			&.ad-zoom {
+			&.ad_zoom {
 				
 			}
 			&.ad-multiple {
 				
 			}
 		}
-		&.ad-160-600 {
+		&.ad_160_600 {
 			width: 160px;
 			height: 600px;
 			.brand {
 				height: 65px;
 				line-height: 65px;
 			}
-			&.ad-neutral {
+			&.ad_neutral {
 				.content {
 					ul.products-list {
 						li.product-item {
@@ -398,13 +398,13 @@ ul {
 					}
 				}
 			}
-			&.ad-slideshow {
+			&.ad_slideshow {
 				
 			}
-			&.ad-carrousel {
+			&.ad_carrousel {
 				
 			}
-			&.ad-mosaic {
+			&.ad_mosaic {
 				.content {
 					position: relative;
 					ul.products-list {
@@ -460,24 +460,24 @@ ul {
 					}
 				}
 			}
-			&.ad-showcase {
+			&.ad_showcase {
 				
 			}
-			&.ad-zoom {
+			&.ad_zoom {
 				
 			}
 			&.ad-multiple {
 				
 			}
 		}
-		&.ad-300-250 {
+		&.ad_300_250 {
 			width: 300px;
 			height: 250px;
 			.brand {
 				height: 45px;
 				line-height: 45px;
 			}
-			&.ad-neutral {
+			&.ad_neutral {
 				.content {
 					ul.products-list {
 						li.product-item {
@@ -513,13 +513,57 @@ ul {
 					}
 				}
 			}
-			&.ad-slideshow {
+			&.ad_slideshow {
+				.content {
+					position: relative;
+					ul.products-list {
+						li.product-item {
+							width: 290px;
+							height: 195px;
+							
+							display: none;
+							&.show {
+								display: block;
+							}
+							.image {
+								display: block;
+								width: 145px;
+								height: 195px;
+								float: left;
+								border: 1px solid @brandBackground;
+							}
+							.info {
+								display: block;
+								width: 145px;
+								height: 195px;
+								float: left;
+								background: #fff;
+								padding: 0 5px;
+								border: 1px solid @brandBackground;
+								
+							}
+						}
+					}
+					.navigator {
+						position: absolute;
+						top: 10px;
+						right: 45px;
+						.btn-nav {
+							display: block;
+							float: left;
+							padding: 0 7px;
+							i {
+								font-size: 30px;
+								font-weight: bold;
+							}
+						}
+					}
+				}
+			}
+			&.ad_carrousel {
 				
 			}
-			&.ad-carrousel {
-				
-			}
-			&.ad-mosaic {
+			&.ad_mosaic {
 				.content {
 					position: relative;
 					ul.products-list {
@@ -573,13 +617,10 @@ ul {
 					}
 				}
 			}
-			&.ad-showcase {
+			&.ad_showcase {
 				
 			}
-			&.ad-zoom {
-				
-			}
-			&.ad-multiple {
+			&.ad_zoom {
 				.content {
 					position: relative;
 					width: 290px;
@@ -604,8 +645,7 @@ ul {
 							}
 							&.show {
 								.shadow {
-									opacity: 0;
-									.transition(opacity, 1s);
+									opacity: 0;	
 								}
 							}
 						}
@@ -615,13 +655,72 @@ ul {
 							.info-image {
 								width: 145px;
 								height: 195px;
-								display: block;
 								float: left;
 								border: 1px solid @brandBackground;
 								display: none;
 							}
 							.info-desc {
-								display: block;
+								width: 145px;
+								height: 97px;
+								float: left;
+								border: 1px solid @brandBackground;
+								border-right: 0;	
+								display: none;
+								padding: 0 5px;
+							}
+
+							&.show {
+								.info-image {
+									display: block;
+								}
+								.info-desc {
+									display: block;
+								}
+							}
+						}
+					}
+				}
+			}
+			&.ad_multiple {
+				.content {
+					position: relative;
+					width: 290px;
+					height: 195px;
+					ul.products-list {
+						width: 145px;
+						height: 98px;
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						li.product-item {
+							width: 48px;
+							height: 98px;
+							border: 1px solid @brandBackground;
+							position: relative;
+							.image {
+								width: 45px;
+								height: 94px;
+							}
+							&.last {
+								border-right: 0;
+							}
+							&.show {
+								.shadow {
+									opacity: 0;	
+								}
+							}
+						}
+					}
+					ul.products-list-info {
+						li.product-item {
+							.info-image {
+								width: 145px;
+								height: 195px;
+								float: left;
+								border: 1px solid @brandBackground;
+								display: none;
+							}
+							.info-desc {
 								width: 145px;
 								height: 97px;
 								float: left;
@@ -644,7 +743,7 @@ ul {
 				}
 			}
 		}
-		&.ad-728-90 {
+		&.ad_728_90 {
 			width: 728px;
 			height: 90px;
 			border-left-width: 0;
@@ -657,7 +756,7 @@ ul {
 			}
 			.content {
 			}
-			&.ad-neutral {
+			&.ad_neutral {
 				.content {
 					ul.products-list {
 						li.product-item {
@@ -702,13 +801,13 @@ ul {
 					}
 				}
 			}
-			&.ad-slideshow {
+			&.ad_slideshow {
 				
 			}
-			&.ad-carrousel {
+			&.ad_carrousel {
 				
 			}
-			&.ad-mosaic {
+			&.ad_mosaic {
 				.content {
 					position: relative;
 					ul.products-list {
@@ -762,24 +861,24 @@ ul {
 					}
 				}
 			}
-			&.ad-showcase {
+			&.ad_showcase {
 				
 			}
-			&.ad-zoom {
+			&.ad_zoom {
 				
 			}
 			&.ad-multiple {
 				
 			}
 		}
-		&.ad-300-600 {
+		&.ad_300_600 {
 			width: 300px;
 			height: 600px;
 			.brand {
 				height: 60px;
 				line-height: 60px;
 			}
-			&.ad-neutral {
+			&.ad_neutral {
 				.content {
 					ul.products-list {
 						li.product-item {
@@ -823,13 +922,13 @@ ul {
 					}
 				}
 			}
-			&.ad-slideshow {
+			&.ad_slideshow {
 				
 			}
-			&.ad-carrousel {
+			&.ad_carrousel {
 				
 			}
-			&.ad-mosaic {
+			&.ad_mosaic {
 				.content {
 					position: relative;
 					ul.products-list {
@@ -882,24 +981,24 @@ ul {
 					}
 				}
 			}
-			&.ad-showcase {
+			&.ad_showcase {
 				
 			}
-			&.ad-zoom {
+			&.ad_zoom {
 				
 			}
-			&.ad-multiple {
+			&.ad_multiple {
 				
 			}
 		}
-		&.ad-336-280 {
+		&.ad_336_280 {
 			width: 336px;
 			height: 280px;
 			.brand {
 				height: 45px;
 				line-height: 45px;
 			}
-			&.ad-neutral {
+			&.ad_neutral {
 				.content {
 					ul.products-list {
 						li.product-item {
@@ -935,13 +1034,13 @@ ul {
 					}
 				}
 			}
-			&.ad-slideshow {
+			&.ad_slideshow {
 				
 			}
-			&.ad-carrousel {
+			&.ad_carrousel {
 				
 			}
-			&.ad-mosaic {
+			&.ad_mosaic {
 				.content {
 					position: relative;
 					ul.products-list {
@@ -996,10 +1095,10 @@ ul {
 					}
 				}
 			}
-			&.ad-showcase {
+			&.ad_showcase {
 				
 			}
-			&.ad-zoom {
+			&.ad_zoom {
 				
 			}
 			&.ad-multiple {

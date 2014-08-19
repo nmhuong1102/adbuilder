@@ -43,19 +43,20 @@
                             <option value="728_90">728x90</option>
                             <option value="300_600">300x600</option>
                             <option value="336_280">336x280</option>
+                            <option value="all">All</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="template">Template</label>
                         <select class="form-control" id="template">
                             <option value="neutral">Neutral</option>
-                            <!-- <option value="slideshow">Slideshow</option>
+                            <option value="slideshow">Slideshow</option>
                             <option value="carrousel">Carrousel</option>
                             <option value="mosaic">Mosaic</option>
                             <option value="showcase">Showcase</option>
                             <option value="zoom">Zoom</option>
                             <option value="multiple">Multiple</option>
-                            <option value="all">All</option> -->
+                            <option value="all">All</option>
                         </select>
                     </div>
                 </div>
@@ -70,6 +71,7 @@
 <script type="text/javascript" src="/adbuilder/public/components/jquery/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="/adbuilder/public/components/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/adbuilder/public/components/colorpicker/js/colorpicker.js"></script>
+<script type="text/javascript" src="/adbuilder/public/js/layout.js"></script>
 <script type="text/javascript" src="/adbuilder/public/js/script.js"></script>
 <script type="text/javascript">
 

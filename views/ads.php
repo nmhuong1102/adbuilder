@@ -1,6 +1,6 @@
 <div class="ad-item">
     <h3>Neutral 120x600</h3>
-    <a class="ad-wrapper ad-120-600 ad-neutral" href="#">
+    <a class="ad-wrapper ad_120_600 ad_neutral" href="#">
         <div class="brand">MICHAEL KORS</div>
         <div class="content">
             <ul class="products-list">
@@ -53,7 +53,7 @@
 
 <div class="ad-item">
     <h3>Neutral 160x600</h3>
-    <a class="ad-wrapper ad-160-600 ad-neutral" href="#">
+    <a class="ad-wrapper ad_160_600 ad_neutral" href="#">
         <div class="brand">MICHAEL KORS</div>
         <div class="content">
             <ul class="products-list">
@@ -92,7 +92,7 @@
 
 <div class="ad-item">
     <h3>Neutral 300x600</h3>
-    <a class="ad-wrapper ad-300-600 ad-neutral" href="#">
+    <a class="ad-wrapper ad_300_600 ad_neutral" href="#">
         <div class="brand">MICHAEL KORS</div>
         <div class="content">
             <ul class="products-list">
@@ -131,7 +131,7 @@
 
 <div class="ad-item">
     <h3>Neutral 300x250</h3>
-    <a class="ad-wrapper ad-300-250 ad-neutral" href="#">
+    <a class="ad-wrapper ad_300_250 ad_neutral" href="#">
         <div class="brand">MICHAEL KORS</div>
         <div class="content">
             <ul class="products-list">
@@ -170,7 +170,7 @@
 
 <div class="ad-item">
     <h3>Neutral 336x280</h3>
-    <a class="ad-wrapper ad-336-280 ad-neutral" href="#">
+    <a class="ad-wrapper ad_336_280 ad_neutral" href="#">
         <div class="brand">MICHAEL KORS</div>
         <div class="content">
             <ul class="products-list">
@@ -209,7 +209,7 @@
 
 <div class="ad-item">
     <h3>Neutral 728x90</h3>
-    <a class="ad-wrapper ad-728-90 ad-neutral" href="#">
+    <a class="ad-wrapper ad_728_90 ad_neutral" href="#">
         <div class="brand">MICHAEL KORS</div>
         <div class="content">
             <ul class="products-list">
