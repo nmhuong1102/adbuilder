@@ -9,6 +9,29 @@
 	transition: @property @duration;
 }
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes left2right {
+    0%   { left: 0px; top: 0px; }
+    100% { left: 145px; top: 0px; }
+}
+
+@-webkit-keyframes right2left {
+    0%   { left: 0px; top: 0px; }
+    100% { left: -145px; top: 0px; }
+}
+
+
+
+@keyframes left2right {
+    0%   { left: 0px; top: 0px; }
+    100% { left: 145px; top: 0px; }
+}
+
+@keyframes right2left {
+    0%   { left: 0px; top: 0px; }
+    100% { left: -145px; top: 0px; }
+}
+
 *, .btn, .form-control  {
 	font: 11px Arial;
 }
@@ -566,6 +589,20 @@ ul {
 					overflow: hidden;
 					ul.products-list {
 						width: 5000px;
+						&.left2right {
+						    position: relative;
+						    -webkit-animation: left2right 5s infinite; /* Chrome, Safari, Opera */
+						    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+						    animation: left2right 5s infinite;
+						    animation-direction: alternate;
+						}
+						&.right2left {
+						    position: relative;
+						    -webkit-animation: right2left 5s infinite; /* Chrome, Safari, Opera */
+						    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+						    animation: right2left 5s infinite;
+						    animation-direction: alternate;
+						}
 						li.product-item {
 							width: 145px;
 							height: 150px;

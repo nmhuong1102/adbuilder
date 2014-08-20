@@ -3,13 +3,14 @@ $(document).ready(function() {
 	var $doc = $(document);
 
 	$doc
-	.on('click', '.product-item', function() {
-		$(this).find(".info").addClass("show");
-	})
 
 	.on('click', '.btn-close', function() {
 		$(this).parentsUntil(".info").parent().removeClass("show");
 		return false;
+	})
+
+	.on('click', '.ad_mosaic .products-list 	.product-item', function() {
+		$(this).find(".info").addClass("show");
 	})
 
 	.on('mouseover', '.ad_multiple .products-list .product-item', function() {
@@ -54,6 +55,7 @@ $(document).ready(function() {
 	.on('click', '.ad_carrousel .navigator .btn-nav', function() {
 		var $this = $(this),
 			$ad = $(this).parentsUntil('.ad_carrousel').parent(),
+			$productList = $ad.find('ul.products-list'),
 			count = $ad.find('ul.products-list li').length,
 			curPos = $ad.find('.product-item.show').attr('data-product-pos'),
 			prevPos, nextPos;
@@ -61,14 +63,16 @@ $(document).ready(function() {
 		$ad.find('.product-item').removeClass('show');
 
 		if($this.hasClass('btn-prev')) {
-			prevPos = (curPos + 1) % count;
-			prevPos = (prevPos == 0) ? 3 : prevPos;
-			$ad.find('.product-item-' + prevPos).addClass('show');
+			$productList.addClass('right2left');
+			setTimeout(function() {
+				$productList.removeClass("right2left");
+			},5000);
 			
 		} else if($this.hasClass('btn-next')) {
-			nextPos = (curPos - 1) % count;
-			nextPos = (nextPos == 0) ? 3 : nextPos;
-			$ad.find('.product-item-' + nextPos).addClass('show');
+			$ad.find('ul.products-list').addClass('left2right');
+			setTimeout(function() {
+				$productList.removeClass("left2right");
+			},5000);
 		}
 	})
 

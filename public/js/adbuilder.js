@@ -5,5 +5,20 @@ function AdBuilder (params) {
 
 	Builder.templates = [];
 
-	
+	function AdTemplate (json, raw) {
+		
+		var Template = $.extend(this, json.creative);
+
+		Template.json = raw;
+
+		Template.format = [Template.width, Template.height].join("x");
+
+
+	}	
+
+	function render() {
+		var $container = $(params.container);
+
+		
+	}
 }
