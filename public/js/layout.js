@@ -51,6 +51,27 @@ $(document).ready(function() {
 		}
 	})
 
+	.on('click', '.ad_carrousel .navigator .btn-nav', function() {
+		var $this = $(this),
+			$ad = $(this).parentsUntil('.ad_carrousel').parent(),
+			count = $ad.find('ul.products-list li').length,
+			curPos = $ad.find('.product-item.show').attr('data-product-pos'),
+			prevPos, nextPos;
+
+		$ad.find('.product-item').removeClass('show');
+
+		if($this.hasClass('btn-prev')) {
+			prevPos = (curPos + 1) % count;
+			prevPos = (prevPos == 0) ? 3 : prevPos;
+			$ad.find('.product-item-' + prevPos).addClass('show');
+			
+		} else if($this.hasClass('btn-next')) {
+			nextPos = (curPos - 1) % count;
+			nextPos = (nextPos == 0) ? 3 : nextPos;
+			$ad.find('.product-item-' + nextPos).addClass('show');
+		}
+	})
+
 	.on('mouseover', '.ad_zoom .products-list-info .info-image', function() {
 
 	})
