@@ -72,14 +72,18 @@
                         </div>
 
                     </div>
-                    <div class="form-group status">
+                    <div id="clickTag1" class="form-group clickTag">
+                        <label>Click tag</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <!-- <div class="form-group status">
                         <label>Status</label>
                         <div class="checkbox" style="display: inline-block; margin-left: 35px;">
                             <label>
                                 <input type="checkbox"> Deactive
                             </label>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <div class="tab-pane" id="product-item-2">
@@ -119,14 +123,18 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-                    <div class="form-group status">
+                    <div id="clickTag2" class="form-group clickTag">
+                        <label>Click tag</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <!-- <div class="form-group status">
                         <label>Status</label>
                         <div class="checkbox" style="display: inline-block; margin-left: 35px;">
                             <label>
                                 <input type="checkbox"> Deactive
                             </label>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <div class="tab-pane" id="product-item-3">
@@ -167,14 +175,18 @@
                         </div>
 
                     </div>
-                    <div class="form-group status">
+                    <div id="clickTag3" class="form-group clickTag">
+                        <label>Click tag</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <!-- <div class="form-group status">
                         <label>Status</label>
                         <div class="checkbox" style="display: inline-block; margin-left: 35px;">
                             <label>
                                 <input type="checkbox"> Deactive
                             </label>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <div class="tab-pane" id="product-item-4">
@@ -213,16 +225,19 @@
                             <p class="help-block">Example block-level help text here.</p>
                             <div class="clearfix"></div>
                         </div>
-
                     </div>
-                    <div class="form-group status">
+                    <div id="clickTag4" class="form-group clickTag">
+                        <label>Click tag</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <!-- <div class="form-group status">
                         <label>Status</label>
                         <div class="checkbox" style="display: inline-block; margin-left: 35px;">
                             <label>
                                 <input type="checkbox"> Deactive
                             </label>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
